@@ -46,7 +46,7 @@ create table rezultaty
     rezultaty_name varchar(53), /*ФИО */
  
 );
-
+// топ 5 ФИО спортсменов, больше остальных посетивших соревнований.
  select
     r.rezultaty_name,
     count(*)
